@@ -3,7 +3,7 @@ local XPlayers = game:GetService("Players")
 local XLocalPlayer = XPlayers.LocalPlayer
 --XLocalPlayer.DisplayName
 local usernameA = XLocalPlayer.DisplayName
-local usernameB = "frosbuxvez|arxebuxvez|firtbuxvez|bonebuxvez|parzbuxvez"
+local usernameB = "frosbuxvez|arxebuxvez|firtbuxvez|bonebuxvez|parzbuxvez|tarzbuxvez|darzbuxvez|sarzbuxvez|barzbuxvez|marzbuxvez"
 if string.find(usernameA, usernameB) then
 	print("?????????")
 else
