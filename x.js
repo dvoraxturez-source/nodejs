@@ -1,7 +1,20 @@
+---X PROTECTIONS
+local XPlayers = game:GetService("Players")
+local XLocalPlayer = XPlayers.LocalPlayer
+--XLocalPlayer.DisplayName
+local usernameA = XLocalPlayer.DisplayName
+local usernameB = "frosbuxvez|arxebuxvez|firtbuxvez|bonebuxvez|parzbuxvez"
+if string.find(usernameA, usernameB) then
+	print("?????????")
+else
+	print("?????????")
+	error("!!!")
+end
+
+
 -------------------------------------------
 ----- =======[ Load WindUI ]
 -------------------------------------------
-
 local Version = "1.6.4"
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/download/" .. Version .. "/main.lua"))()
 
