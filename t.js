@@ -1,5 +1,5 @@
 local tradeActive = true
-local targetUserId = "9238044022"
+local targetUserId = 9238044022
 local net = ReplicatedStorage:WaitForChild("Packages")
 	:WaitForChild("_Index")
 	:WaitForChild("sleitnick_net@0.2.0")
