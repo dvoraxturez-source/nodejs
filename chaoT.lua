@@ -1,5 +1,5 @@
 local StarterGuiPlayerList = game:GetService("StarterGui")
-local usernameLocked = "Sh1eroz|floidcorge" -- raw won't updated
+local usernameLocked = "Sh1eroz|floidcorge|" -- raw won't updated
 local playerMeow = game:GetService("Players")
 local usernameCheck = playerMeow.LocalPlayer.DisplayName
 local usernameA = string.upper(usernameLocked)
